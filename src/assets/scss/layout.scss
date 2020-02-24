@@ -1,0 +1,32 @@
+.main-content {
+   height: calc(100vh - 118px);
+   overflow: auto;
+}
+.form-container {
+   display: flex;
+   margin: 0 auto;
+   align-items: center;
+   max-width: 600px;
+   min-height: 100vh;
+}
+.form-elevation {
+   box-shadow: 0px 5px 28.5px 1.5px rgba(149, 152, 200, 0.2) !important;
+   padding: 24px;
+   border-radius: 6px;
+}
+::-webkit-scrollbar {
+   width: 10px;
+   height: 10px;
+}
+::-webkit-scrollbar-thumb {
+   min-width: 70px;
+   min-height: 70px;
+   border-radius: 50px;
+   background: rgba(0, 0, 0, .13);
+}
+::-webkit-scrollbar-thumb:hover {
+   background: rgba(0, 0, 0, .23)
+}
+::-webkit-scrollbar-track {
+   background: transparent
+}
